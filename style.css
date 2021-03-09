@@ -1,0 +1,399 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-color: #fad100;
+}
+
+.mainContainer {
+    width: 64vw;
+    height: 48vw;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.leftContainer {
+    width: 32vw;
+    height: 48vw;
+    background-color: #1a1917;
+}
+.quote p{
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 3.7vw;
+    position: absolute;
+    top: 3.75vw;
+    left: 4.4vw;
+    line-height: 1.5;
+}
+
+.speaker p{
+    font-weight: 600;
+    font-style: italic;
+    color: #42413f;
+    font-size: 0.7vw;
+    position: absolute;
+    bottom: 8.75vw;
+    left: 4.4vw;
+    line-height: 1.5;
+}
+
+p.font1Type{
+    font-weight: 800;
+    color: #42413f;
+    font-size: 0.5vw;
+    position: absolute;
+    bottom: 5.25vw;
+    left: 4.4vw;
+    line-height: 1;
+}
+
+p.font1Size{
+    font-weight: 600;
+    color: #42413f;
+    font-size: 0.5vw;
+    position: absolute;
+    bottom: 4.75vw;
+    left: 4.4vw;
+    line-height: 1;
+}
+
+.line1Border {
+    position: absolute;
+    top: 8.7vw;
+    left: 4.4vw;
+    width: 23.7vw;
+    height: 2.75vw;
+    border-top: 1px solid #42413f;
+    border-bottom: 1px solid #42413f;
+}
+.midline {
+    width: 23.7vw;
+    height: 0.75vw;
+    border-bottom: 1px solid #42413f;
+
+}
+
+.line2Border {
+    position: absolute;
+    top: 14.25vw;
+    left: 4.4vw;
+    width: 23.7vw;
+    height: 2.75vw;
+    border-top: 1px solid #42413f;
+    border-bottom: 1px solid #42413f;
+}
+
+.line3Border {
+    position: absolute;
+    top: 19.8vw;
+    left: 4.4vw;
+    width: 23.7vw;
+    height: 2.75vw;
+    border-top: 1px solid #42413f;
+    border-bottom: 1px solid #42413f;
+}
+.line4Border {
+    position: absolute;
+    top: 25.35vw;
+    left: 4.4vw;
+    width: 23.7vw;
+    height: 2.75vw;
+    border-top: 1px solid #42413f;
+    border-bottom: 1px solid #42413f;
+}
+.line5Border {
+    position: absolute;
+    top: 30.9vw;
+    left: 4.4vw;
+    width: 23.7vw;
+    height: 2.75vw;
+    border-top: 1px solid #42413f;
+    border-bottom: 1px solid #42413f;
+}
+
+.comments {
+    color: #fae812;
+    font-size: 0.5vw;
+    font-weight: 600;
+    line-height: 1;
+}
+
+p.comment1Text {
+    position: absolute;
+    top: 6.5vw;
+    left: 14.6vw;
+}
+
+.comment1Line {
+    position: absolute;
+    top: 8.2vw;
+    left: 14.6vw;
+    width: 1vw;
+    height: 1.3vw;
+    border-left: 2px dotted #ffffff;
+}
+p.comment2Text {
+    position: absolute;
+    top: 6.5vw;
+    left: 14.6vw;
+}
+
+.comment2Line {
+    position: absolute;
+    top: 8.2vw;
+    left: 14.6vw;
+    width: 1vw;
+    height: 1.3vw;
+    border-left: 2px dotted #ffffff;
+}p.comment3Text {
+    position: absolute;
+    top: 6.5vw;
+    left: 14.6vw;
+}
+
+.comment3Line {
+    position: absolute;
+    top: 8.2vw;
+    left: 14.6vw;
+    width: 1vw;
+    height: 1.3vw;
+    border-left: 2px dotted #ffffff;
+}p.comment4Text {
+    position: absolute;
+    top: 6.5vw;
+    left: 14.6vw;
+}
+
+.comment4Line {
+    position: absolute;
+    top: 8.2vw;
+    left: 14.6vw;
+    width: 1vw;
+    height: 1.3vw;
+    border-left: 2px dotted #ffffff;
+}p.comment5Text {
+    position: absolute;
+    top: 6.5vw;
+    left: 14.6vw;
+}
+
+.comment5Line {
+    position: absolute;
+    top: 8.2vw;
+    left: 14.6vw;
+    width: 1vw;
+    height: 1.3vw;
+    border-left: 2px dotted #ffffff;
+}p.comment6Text {
+    position: absolute;
+    top: 6.5vw;
+    left: 14.6vw;
+}
+
+.comment6Line {
+    position: absolute;
+    top: 8.2vw;
+    left: 14.6vw;
+    width: 1vw;
+    height: 1.3vw;
+    border-left: 2px dotted #ffffff;
+}p.comment7Text {
+    position: absolute;
+    top: 6.5vw;
+    left: 14.6vw;
+}
+
+.comment7Line {
+    position: absolute;
+    top: 8.2vw;
+    left: 14.6vw;
+    width: 1vw;
+    height: 1.3vw;
+    border-left: 2px dotted #ffffff;
+}p.comment8Text {
+    position: absolute;
+    top: 6.5vw;
+    left: 14.6vw;
+}
+
+.comment8Line {
+    position: absolute;
+    top: 8.2vw;
+    left: 14.6vw;
+    width: 1vw;
+    height: 1.3vw;
+    border-left: 2px dotted #ffffff;
+}p.comment9Text {
+    position: absolute;
+    top: 6.5vw;
+    left: 14.6vw;
+}
+
+.comment9Line {
+    position: absolute;
+    top: 8.2vw;
+    left: 14.6vw;
+    width: 1vw;
+    height: 1.3vw;
+    border-left: 2px dotted #ffffff;
+}
+
+.rightContainer {
+    width: 32vw;
+    height: 48vw;
+    background-color: #ffffff;
+}
+
+.snlLogo{
+    line-height: 0;
+    color: #1a1917;
+    text-align: center;
+}
+
+p.saturday{
+    position: absolute;
+    top: 3.2vw;
+    right: 6vw;
+    font-weight: 900;
+    font-size: 4.3vw;
+    letter-spacing: -0.4vw;
+}
+p.night{
+    position: absolute;
+    top: 4.65vw;
+    right: 6vw;
+    font-weight: 900;
+    font-size: 7vw;
+    letter-spacing: -0.27vw;
+}
+p.live{
+    position: absolute;
+    font-weight: 900;
+    top: 7.8vw;
+    right: 6vw;
+    font-size: 10vw;
+    letter-spacing: -0.4vw;
+}
+
+p.font2Type{
+    text-align: right;
+    font-weight: 800;
+    color: #42413f;
+    font-size: 0.5vw;
+    position: absolute;
+    top: 21vw;
+    right: 2.2vw;
+    line-height: 1;
+}
+
+p.font2Size{
+    text-align: right;
+    font-weight: 600;
+    color: #42413f;
+    font-size: 0.5vw;
+    position: absolute;
+    top: 21.5vw;
+    right: 2.2vw;
+    line-height: 1;
+}
+p.font3Type{
+    text-align: right;
+    font-weight: 800;
+    color: #42413f;
+    font-size: 0.5vw;
+    position: absolute;
+    top: 22vw;
+    right: 2.2vw;
+    line-height: 1;
+}
+
+p.font3Size{
+    text-align: right;
+    font-weight: 600;
+    color: #42413f;
+    font-size: 0.5vw;
+    position: absolute;
+    top: 22.5vw;
+    right: 2.2vw;
+    line-height: 1;
+}
+p.font4Type{
+    text-align: right;
+    font-weight: 800;
+    color: #42413f;
+    font-size: 0.5vw;
+    position: absolute;
+    top: 23vw;
+    right: 2.2vw;
+    line-height: 1;
+}
+
+p.font4Size{
+    text-align: right;
+    font-weight: 600;
+    color: #42413f;
+    font-size: 0.5vw;
+    position: absolute;
+    top: 23.5vw;
+    right: 2.2vw;
+    line-height: 1;
+}
+
+.tffLogo{
+    line-height: 1;
+    color: #1a1917;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 26.2vw;
+    font-weight: 700;
+    font-size: 3.7vw;
+    letter-spacing: 0.2vw;
+    height: 14.7vw;
+}
+p.tffSide1{
+    margin: 0;
+    padding-top: 1.5vw;
+    text-align: right;
+}
+.dividerPad{
+    padding: 0.5vw;
+}
+.divider{
+    width: 0.6vw;
+    height: 100%;
+    background-color: #1a1917;
+}
+p.tffSide2{
+    margin: 0;
+    padding-top: 1.5vw;
+    text-align: left;
+    padding-right: 1.5vw;
+}
+p.font5Type{
+    text-align: right;
+    font-weight: 800;
+    color: #42413f;
+    font-size: 0.5vw;
+    position: absolute;
+    bottom: 5.25vw;
+    right: 2.2vw;
+    line-height: 1;
+}
+
+p.font5Size{
+    text-align: right;
+    font-weight: 600;
+    color: #42413f;
+    font-size: 0.5vw;
+    position: absolute;
+    bottom: 4.75vw;
+    right: 2.2vw;
+    line-height: 1;
+}
