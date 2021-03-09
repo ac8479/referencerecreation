@@ -14,6 +14,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    box-shadow: 0px 10px 20px #888888;
 
 }
 
@@ -140,107 +141,108 @@ p.comment1Text {
 }
 p.comment2Text {
     position: absolute;
-    top: 6.5vw;
-    left: 14.6vw;
+    top: 17.3vw;
+    left: 1vw;
 }
 
 .comment2Line {
     position: absolute;
-    top: 8.2vw;
-    left: 14.6vw;
-    width: 1vw;
-    height: 1.3vw;
-    border-left: 2px dotted #ffffff;
+    top: 17vw;
+    left: 5.1vw;
+    width: 1.2vw;
+    height: 0.95vw;
+    border-right: 2px dotted #ffffff;
+    border-bottom: 2px dotted #ffffff;
 }p.comment3Text {
     position: absolute;
-    top: 6.5vw;
-    left: 14.6vw;
+    top: 11.5vw;
+    left: 24.6vw;
 }
 
 .comment3Line {
     position: absolute;
-    top: 8.2vw;
-    left: 14.6vw;
+    top: 13.2vw;
+    left: 24.6vw;
     width: 1vw;
-    height: 1.3vw;
+    height: 1.9vw;
     border-left: 2px dotted #ffffff;
 }p.comment4Text {
     position: absolute;
-    top: 6.5vw;
-    left: 14.6vw;
+    top: 18.2vw;
+    left: 8.1vw;
 }
 
 .comment4Line {
     position: absolute;
-    top: 8.2vw;
-    left: 14.6vw;
+    top: 19.3vw;
+    left: 8.2vw;
     width: 1vw;
     height: 1.3vw;
     border-left: 2px dotted #ffffff;
 }p.comment5Text {
     position: absolute;
-    top: 6.5vw;
-    left: 14.6vw;
+    top: 23.3vw;
+    left: 6.9vw;
 }
 
 .comment5Line {
     position: absolute;
-    top: 8.2vw;
-    left: 14.6vw;
+    top: 24.8vw;
+    left: 7vw;
     width: 1vw;
     height: 1.3vw;
     border-left: 2px dotted #ffffff;
 }p.comment6Text {
     position: absolute;
-    top: 6.5vw;
-    left: 14.6vw;
+    bottom: 18.7vw;
+    left: 21vw;
 }
 
 .comment6Line {
     position: absolute;
-    top: 8.2vw;
-    left: 14.6vw;
-    width: 1vw;
-    height: 1.3vw;
-    border-left: 2px dotted #ffffff;
+    bottom: 18.4vw;
+    left: 18.8vw;
+    width: 1.9vw;
+    height: 1vw;
+    border-top: 2px dotted #ffffff;
 }p.comment7Text {
     position: absolute;
-    top: 6.5vw;
-    left: 14.6vw;
+    bottom: 17.7vw;
+    left: 3.1vw;
 }
 
 .comment7Line {
     position: absolute;
-    top: 8.2vw;
-    left: 14.6vw;
+    bottom: 16.8vw;
+    left: 5.8vw;
     width: 1vw;
     height: 1.3vw;
     border-left: 2px dotted #ffffff;
 }p.comment8Text {
     position: absolute;
-    top: 6.5vw;
-    left: 14.6vw;
+    bottom: 17.2vw;
+    left: 12.4vw;
 }
 
 .comment8Line {
     position: absolute;
-    top: 8.2vw;
-    left: 14.6vw;
+    bottom: 16.2vw;
+    left: 12.4vw;
     width: 1vw;
     height: 1.3vw;
     border-left: 2px dotted #ffffff;
 }p.comment9Text {
     position: absolute;
-    top: 6.5vw;
-    left: 14.6vw;
+    bottom: 11vw;
+    left: 23.9vw;
 }
 
 .comment9Line {
     position: absolute;
-    top: 8.2vw;
-    left: 14.6vw;
+    bottom: 12.3vw;
+    left: 24vw;
     width: 1vw;
-    height: 1.3vw;
+    height: 2vw;
     border-left: 2px dotted #ffffff;
 }
 
